@@ -8,7 +8,7 @@ if [[ ! -x "$renew_script" ]]; then
   # Still allow running if not executable; we'll invoke via bash.
   true
 fi
-DEBUG=1
+
 print_usage() {
   echo "Usage:" >&2
   echo "  $0 domain1.tld domain2.tld ..." >&2
